@@ -32,5 +32,3 @@ cout<<"p:"<< i <<" result: "<<result<<endl;
 
   cout<<"\n result:  "<< result<<endl;
 return 0; 
-
-}
