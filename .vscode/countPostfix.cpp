@@ -9,9 +9,9 @@ int priority(char s)
 {
     if (s == '^')
         return 100;
-    else if (s == '' s == '/')
+    else if (s == '*' || s == '/')
         return 50;
-    else if (s == '+' s == '-')
+    else if (s == '+' || s == '-')
         return 20;
     else
         return 0;
@@ -23,7 +23,7 @@ int apply(int a, int b, char op)
         return a + b;
     if (op == '-')
         return a - b;
-    if (op == '')
+    if (op == '*')
         return a * b;
     if (op == '/')
         return a / b;
