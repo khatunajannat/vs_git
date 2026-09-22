@@ -3,7 +3,6 @@
 #include <string>
 using namespace std;
 
-// Global-ish tables passed by reference
 void LCSLength(string X, string Y, vector<vector<int>> &c, vector<vector<char>> &b)
 {
     int m = X.length();
