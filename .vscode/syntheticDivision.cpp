@@ -4,23 +4,23 @@ using namespace std;
 
 // Polynomial: x^4 + 4x^3 - 7x^2 - 22x + 24
 // Evaluate polynomial using Horner's method
-double func(double a, double x, int n)
+double func(const double a[], double x, int n)
 {
     double res = 0;
     for (int i = 0; i <= n; i++)
     {
-        res = res x + a[i];
+        res = res * x + a[i];
     }
     return res;
 }
 
 // Evaluate derivative using Horner's method
-double f_der(double a, double x, int n)
+double f_der(const double a[], double x, int n)
 {
     double res = 0;
     for (int i = 0; i < n; i++)
     {
-        res = res x + (n - i) * a[i];
+        res = res * x + (n - i) * a[i];
     }
     return res;
 }
