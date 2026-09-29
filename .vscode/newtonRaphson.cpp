@@ -25,8 +25,7 @@ double f_der(double *a, double x, int n)
 
 int main()
 {
-    double a[10] = {1, 4, -7, -22, 24}; // polynomial coefficients (highest
-degree first) 
+    double a[10] = {1, 4, -7, -22, 24}; // polynomial coefficients (highest degree first)
     double x0 = 2.5;                       // initial guess for Newton-Raphson
 double x1;                                 // next estimate of root
 double error, tolErr = 0.00001;            // stopping tolerance
