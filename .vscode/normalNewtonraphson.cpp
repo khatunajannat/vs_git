@@ -56,6 +56,7 @@ int main()
     } while (fabs(f1) > e); // stop when error is small enough
 
     cout << "\nRoot found: " << x1 << endl;
+    cout << "Number of iterations: " << step << endl;
 
     return 0;
 }
