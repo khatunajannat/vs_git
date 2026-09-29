@@ -4,11 +4,11 @@
 // Program: Newton-Raphson Method - Root Finding (Basic)
 // ============================================================
 // ============================================================
-#include <iostream>
-#include <cmath>
+#include <bits/stdc++.h>
+
 using namespace std;
 
-// Function whose root we want to find
+// Function whose root we want to find: f(x) = x^3 - x - 2
 double f(double x)
 {
     return x * x * x - x - 2;
