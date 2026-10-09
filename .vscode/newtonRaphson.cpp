@@ -73,6 +73,5 @@ while (degree > 1)
 
 // Last remaining polynomial is linear: ax + b = 0
 cout << "The root is : " << -a[1] / a[0] << endl;
-
 return 0;
 }
