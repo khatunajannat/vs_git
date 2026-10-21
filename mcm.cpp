@@ -22,7 +22,7 @@ int main()
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    int n; // number of matrices
+    int n; // number of matrices input
     cin >> n;
     vector<long long> p(n + 1); // matrix i has size p[i-1] x p[i]
     for (auto &x : p)
