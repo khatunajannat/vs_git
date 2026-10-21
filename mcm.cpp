@@ -49,7 +49,7 @@ int main()
             }
         }
     }
-
+    // print the minimum number of multiplications and the optimal order
     cout << "Minimum multiplications: " << dp[1][n] << "\n";
     cout << "Order: ";
     printOrder(s, 1, n);
