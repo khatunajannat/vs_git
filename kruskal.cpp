@@ -39,7 +39,7 @@ void unionSets(vector<int> &parent, int a, int b)
 }
 
 void sortEdgesByWeight(vector<Edge> &edges)
-{
+{ // function to sort edges based on their weights using bubble sort
     int count = edges.size();
     for (int i = 0; i < count - 1; i++)
     {
