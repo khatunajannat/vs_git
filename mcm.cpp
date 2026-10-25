@@ -9,7 +9,7 @@ void printOrder(vector<vector<int>> &s, int i, int j)
     if (i == j)
     {
         cout << "A" << i;
-        return;
+        return; // base case: single matrix
     }
     cout << "(";
     printOrder(s, i, s[i][j]);
