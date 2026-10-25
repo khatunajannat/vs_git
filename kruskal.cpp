@@ -152,7 +152,7 @@ void runAndMeasure(const char *label, int V, vector<Edge> &edges)
     double energy = CPU_POWER_WATTS * elapsed;
     double energy_kWh = energy / 3.6e6;
     double co2 = energy_kWh * BD_EMISSION_FACTOR;
-
+    // energy in Joules, energy_kWh in kWh, co2 in kg
     PROCESS_MEMORY_COUNTERS_EX pmc;
     if (GetProcessMemoryInfo(GetCurrentProcess(), (PROCESS_MEMORY_COUNTERS *)&pmc, sizeof(pmc)))
     {
