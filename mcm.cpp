@@ -22,11 +22,11 @@ int main()
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    int n; // number of matrices input
-    cin >> n;
+    int n;                      // number of matrices input
+    cin >> n;                   // taking input from user
     vector<long long> p(n + 1); // matrix i has size p[i-1] x p[i]
     for (auto &x : p)
-        cin >> x;
+        cin >> x; // taking input for the matrix dimensions
 
     // dp[i][j] = min scalar multiplications to compute A_i ... A_j
     vector<vector<long long>> dp(n + 1, vector<long long>(n + 1, 0));
