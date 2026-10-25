@@ -56,7 +56,7 @@ void sortEdgesByWeight(vector<Edge> &edges)
 }
 
 bool edgeExists(vector<Edge> &edges, int u, int v)
-{
+{ // for checking if an edge already exists in the graph
     for (int i = 0; i < (int)edges.size(); i++)
     {
         if ((edges[i].u == u && edges[i].v == v) ||
