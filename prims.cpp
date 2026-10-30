@@ -54,6 +54,7 @@ vector<vector<int>> generateDenseGraph(int V)
     return graph;
 }
 
+// actual Prim's algorithm implementation
 int Prim(int V, vector<vector<int>> &graph, int root = 0)
 {
     vector<int> weight(V, INT_MAX);
