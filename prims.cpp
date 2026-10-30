@@ -87,7 +87,7 @@ int Prim(int V, vector<vector<int>> &graph, int root = 0)
     }
     return mstWeight;
 }
-
+// calc of energy consumption and carbon emissions for Prim's algorithm in Bangladesh
 void runAndMeasure(const char *label, int V, vector<vector<int>> &graph, size_t edgeCount)
 {
     LARGE_INTEGER freq, start, end;
