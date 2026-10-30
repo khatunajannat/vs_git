@@ -3,6 +3,7 @@ using namespace std;
 
 int main()
 {
+    // n is the number of vertices and m is the number of edges in the directed graph
     int n, m;
     cout << "Enter number of vertices and edges: ";
     cin >> n >> m;
