@@ -9,7 +9,7 @@
 #define CPU_POWER_WATTS 65.0
 #define BD_EMISSION_FACTOR 0.62
 using namespace std;
-
+// counting carbon emissions for Prim's algorithm in Bangladesh
 vector<vector<int>> generateSparseGraph(int V, int targetEdges)
 {
     vector<vector<int>> graph(V, vector<int>(V, 0));
@@ -38,6 +38,7 @@ vector<vector<int>> generateSparseGraph(int V, int targetEdges)
     return graph;
 }
 
+// generating dense graph function
 vector<vector<int>> generateDenseGraph(int V)
 {
     vector<vector<int>> graph(V, vector<int>(V, 0));

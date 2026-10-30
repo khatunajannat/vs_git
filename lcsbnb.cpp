@@ -59,7 +59,7 @@ void branchAndBound(int i, int j, string &cur)
         }
     }
 }
-//branch and bound function
+// branch and bound function
 string lcsBranchAndBound(const string &x, const string &y)
 {
     a = x;
