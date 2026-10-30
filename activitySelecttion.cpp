@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
-
+// we must select the maximum number of activities that don't overlap in time. This is a classic greedy algorithm problem. The idea is to always pick the next activity that finishes the earliest and is compatible with the previously selected activities.
 struct Activity
 {
     int start, finish, id;
