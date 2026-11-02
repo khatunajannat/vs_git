@@ -6,7 +6,7 @@ vector<double> b;
 vector<double> x;
 
 int n;
-
+// function that implements the jacobi method to solve a system of linear equations
 void jacobi()
 {
 
