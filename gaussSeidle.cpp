@@ -6,7 +6,7 @@ vector<double> b;
 vector<double> x;
 
 int n;
-
+// function that implements the gauss seidel method to solve a system of linear equations
 void gaussSeidle()
 {
 
