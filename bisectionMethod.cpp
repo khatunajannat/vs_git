@@ -70,7 +70,7 @@ int main()
             // cout<<"\nError: " << err << endl;
             printf("%2d|  %0.6f|  %0.6f|  %0.6f|  %0.6f|   %0.6f|   %0.6f|   %c|   %0.6f|   %s| \n ", iter, tempA, tempB, func(tempA), func(tempB), x, func(x), sign, interval, update.c_str());
         }
-
+        // the root is found when the error is less than the tolerance level
         cout << "Root is: " << x << endl;
     }
     return 0;
