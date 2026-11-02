@@ -29,6 +29,7 @@ void gaussSeidle()
                     sum += a[i][j] * x[j];
                 }
             }
+            // update the value of x[i] using the formula
             x[i] = (b[i] - sum) / a[i][i];
             cout << "x[ " << i << "] = " << x[i] << "\t";
         }
