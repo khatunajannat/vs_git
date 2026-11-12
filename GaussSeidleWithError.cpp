@@ -44,6 +44,7 @@ void gaussSeidle()
         cout << "maximum error: " << max_err;
 
         cout << endl;
+        // cout << "maximum error: " << max_err << endl;
         iter++;
     }
 }
