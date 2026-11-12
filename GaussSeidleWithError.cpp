@@ -37,6 +37,7 @@ void gaussSeidle()
             if (err > max_err)
             {
                 max_err = err;
+                // cout << "max error: " << max_err << endl;
             }
             cout << "x[ " << i << "] = " << x[i] << "\t";
         }
