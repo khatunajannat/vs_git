@@ -8,9 +8,9 @@ vector<double> x;
 double tolErr = 0.00001;
 int n;
 
+// gauss seidle function
 void gaussSeidle()
 {
-
     cout << fixed << setprecision(6);
     double sum, prev;
     int iter = 1;
