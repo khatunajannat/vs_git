@@ -18,7 +18,7 @@ void gaussSeidle()
     while (max_err > tolErr)
     {
         max_err = 0;
-
+        // assuming that the initial guess is 0 for all variables
         cout << "Iteration: " << iter;
         for (int i = 0; i < n; i++)
         {
